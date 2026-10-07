@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Rustic Fork Menu</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fdfbf7;
+      color: #333;
+      margin: 0;
+      padding: 0 20px 60px;
+    }
+    .menu-container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    h1 {
+      text-align: center;
+      font-family: 'Georgia', serif;
+      font-size: 3.2rem;
+      color: #2c3e50;
+      margin-top: 50px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      font-family: 'Georgia', serif;
+      color: #d35400;
+      border-bottom: 2px solid #e67e22;
+      padding-bottom: 10px;
+      margin-top: 60px;
+      font-size: 2.2rem;
+    }
+    ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 30px;
+      padding: 0;
+      list-style-type: none;
+    }
+    li {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.06);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    li:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+    }
+    li br {
+      display: none;
+    }
+    img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: block;
+    }
+    strong {
+      font-size: 1.3rem;
+      color: #2c3e50;
+      margin: 20px 20px 10px;
+    }
+    p {
+      font-size: 1rem;
+      color: #666;
+      line-height: 1.6;
+      margin: 0 20px 25px;
+      flex-grow: 1;
+    }
+    .contact-container {
+      text-align: center;
+      margin-top: 70px;
+    }
+    .contact-container a {
+      display: inline-block;
+      background-color: #e67e22;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: 600;
+      padding: 14px 32px;
+      border-radius: 30px;
+      transition: background-color 0.3s ease;
+    }
+    .contact-container a:hover {
+      background-color: #d35400;
+    }
+  </style>
+</head>
+<body>
+<div class="menu-container">
+  <h1>The Rustic Fork Menu</h1>
+  
+  <h2>Appetizers</h2>
+  <ul>
+    <li>
+      <strong>Caprese Salad</strong><br>
+      <img src="https://images.unsplash.com/photo-1592417817098-8fd3d9eb14a5?w=300&h=200&fit=crop" alt="Caprese Salad">
+      <p>Fresh tomatoes, mozzarella, and basil drizzled with balsamic glaze.</p>
+    </li>
+    <li>
+      <strong>Garlic Parmesan Wings</strong><br>
+      <img src="https://images.unsplash.com/photo-1569691899455-88464f6d3ab1?w=300&h=200&fit=crop" alt="Garlic Parmesan Wings">
+      <p>Crispy chicken wings tossed in a rich garlic parmesan sauce, served with celery sticks.</p>
+    </li>
+    <li>
+      <strong>Crispy Calamari</strong><br>
+      <img src="https://images.unsplash.com/photo-1600803907087-f56d462fd26b?w=300&h=200&fit=crop" alt="Crispy Calamari">
+      <p>Lightly breaded and fried squid rings served with a tangy marinara dipping sauce.</p>
+    </li>
+  </ul>
+  
+  <h2>Main Courses</h2>
+  <ul>
+    <li>
+      <strong>Grilled Salmon</strong><br>
+      <img src="https://images.unsplash.com/photo-1485921325833-c519f76c4927?w=300&h=200&fit=crop" alt="Grilled Salmon">
+      <p>Salmon fillet seasoned and grilled to perfection, served with lemon butter sauce.</p>
+    </li>
+    <li>
+      <strong>Filet Mignon</strong><br>
+      <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?w=300&h=200&fit=crop" alt="Filet Mignon">
+      <p>Tender 8oz beef steak grilled to your liking, served with garlic mashed potatoes and asparagus.</p>
+    </li>
+    <li>
+      <strong>Truffle Mushroom Risotto</strong><br>
+      <img src="https://images.unsplash.com/photo-1633337474564-1d9e26a48d89?w=300&h=200&fit=crop" alt="Truffle Mushroom Risotto">
+      <p>Creamy Arborio rice slow-cooked with wild mushrooms, finished with truffle oil and parmesan.</p>
+    </li>
+  </ul>
+  
+  <h2>Desserts</h2>
+  <ul>
+    <li>
+      <strong>Chocolate Fondue</strong><br>
+      <img src="https://images.unsplash.com/photo-1549007953-2f2dc0b24019?w=300&h=200&fit=crop" alt="Chocolate Fondue">
+      <p>Assorted fruits and marshmallows served with rich chocolate fondue.</p>
+    </li>
+    <li>
+      <strong>New York Cheesecake</strong><br>
+      <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=300&h=200&fit=crop" alt="New York Cheesecake">
+      <p>Classic creamy cheesecake with a graham cracker crust and a dollop of whipped cream.</p>
+    </li>
+    <li>
+      <strong>Tiramisu</strong><br>
+      <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=300&h=200&fit=crop" alt="Tiramisu">
+      <p>Traditional Italian dessert made with espresso-soaked ladyfingers and mascarpone cream.</p>
+    </li>
+  </ul>
+
+  <div class="contact-container">
+    <a href="contact.html">Contact us for reservations</a>
+  </div>
+</div>
+</body>
+</html>
